@@ -1,0 +1,1 @@
+protoc -I proto --csharp_out=api --grpc_out=api --plugin=protoc-gen-grpc=ProtoC#Plugin/C#/tools/windows_x64/grpc_csharp_plugin.exe proto/ProtoTest.proto

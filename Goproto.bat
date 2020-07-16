@@ -1,0 +1,1 @@
+protoc -I proto --go_out=plugins=grpc:Path_out_GoFile Path_To_ProtoFile

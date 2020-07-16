@@ -1,0 +1,1 @@
+protoc -I proto --csharp_out=Path_out_csFile --grpc_out=Path_out_csFile --plugin=protoc-gen-grpc=PATH_TO_Proto_C#_PLUGIN/C#/tools/windows_x64/grpc_csharp_plugin.exe Path_To_ProtoFile
